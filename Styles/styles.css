@@ -8,11 +8,9 @@ body {
 }
  header {
     background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-
     padding: 1px;
-    
-    width: fixed;  
-    
+    width: fixed; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
 }
 header #title {
     color: rgb(10, 10, 10);
@@ -45,4 +43,70 @@ header search button {
     
     border-radius: 10px;    
     
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+main #quizContainer {
+    background-color: #d6edff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 13px;
+    ;
+    width: 500px;
+   padding: 10px;
+   
+}
+main #quiztitle {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    border-bottom: solid 2px rgb(88, 155, 152);
+   padding: 10px;
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+}
+
+main #quizContainer #answers {
+    padding-inline-start: 6px;
+    list-style: none;
+}
+
+main #quizContainer #questionNumber1 {
+    text-align:center;
+}
+main #quizContainer #answers .answer {
+    background-color: rgb(71, 159, 241);
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(57, 181, 247);
+    border-style: outset;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    
+
+}
+
+main #quizContainer #answers .answer:hover {
+    font-size: 24px;
+    transition: 0.3s;
+}
+main #nxtbutton {
+    
+   display: flex;
+    justify-content: right;
+    align-items: right;
+   
+    
+    
+    border-radius: 5px;
+    cursor: pointer;
+
 }
