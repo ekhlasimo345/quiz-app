@@ -21,14 +21,35 @@
         </search>
     </header>
     <main>
-        <p>questionNumber1: "What is the force that pulls objects toward the Earth?" , 
-        AmswerA:" Magnetism " ,
-        AmswerB:" Gravity ",
-        AmswerC:" Electricity",  
-        AmswerD:" Wind  ",
-        </p>
+        <div id="quizContainer">
+           <h2 id="quiztitle">Science Quiz</h2>
+            <h3 id="questionNumber1">What is the force that pulls objects toward the Earth?</h3>
+            <ul id="answers">
+                <li>
+                    <button class="answer" id="answer1" >megnatism</button>
+                </li>
+                <li>
+                    <button class="answer" id="answer2">Gravity</button>
+                </li>
+                <li>
+                    <button class="answer" id="answer3">Friction</button>
+                </li>
+                <li>
+                    <button class="answer" id="answer4">Inertia</button>
+                </li>
+            </ul>
 
-        correctAnswer:"Gravity"
+            <p id="questionNumber">Question 1 of 25</p>
+            <p id="correctAnswer">correctAnswer:"Gravity" </p>
+            <div id="nxtbutton">
+            <button id="submitAnswer">Submit</button>
+            <button id="nextQuestion">Next
+            </button>
+        </div>
+    
+
+            
+        </div>
     </main>
     
 </body>
